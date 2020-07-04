@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
+
+html {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./coffeeshop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+div {
+  text-align: center;
+}
+
+.text {
+  line-height: 90vh;
+  font-size: 9rem;
+  font-family: "Modak";
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  -webkit-text-stroke: 0.5px white;
+  background: url("./noise.png") center;
+  background-clip: text;
+  background-size: contain;
+  color: transparent;
+}
