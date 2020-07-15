@@ -23,6 +23,22 @@ div {
   -webkit-text-stroke: 0.5px white;
   background: url("./noise.png") center;
   background-clip: text;
+  -webkit-background-clip: text;
   background-size: contain;
   color: transparent;
+}
+@media all and (max-width: 800px) {
+  .text {
+    font-size: 3rem;
+  }
+}
+@media all and (max-width: 1200px) {
+  .text {
+    font-size: 4rem;
+  }
+}
+@media all and (max-width: 630px) {
+  .text {
+    font-size: 2rem;
+  }
 }
